@@ -1,0 +1,46 @@
+import { Button } from "@/components/ui/button";
+import heroImage from "@/assets/hero-image.jpg";
+
+const HeroSection = () => {
+  return (
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background Image with Overlay */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroImage})` }}
+      >
+        <div className="absolute inset-0 bg-gradient-hero opacity-75"></div>
+      </div>
+      
+      {/* Content */}
+      <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
+          Redescubra Seu 
+          <span className="block bg-gradient-secondary bg-clip-text text-transparent">
+            Prazer Feminino
+          </span>
+        </h1>
+        
+        <p className="text-xl md:text-2xl mb-8 text-white/90 leading-relaxed animate-fade-in">
+          Uma jornada de autoconhecimento e empoderamento para mulheres que desejam 
+          reconectar-se com sua sensualidade e bem-estar íntimo
+        </p>
+        
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">
+          <Button variant="hero" size="lg" className="text-lg px-8 py-4">
+            Começar Minha Jornada
+          </Button>
+          <Button variant="elegant" size="lg" className="text-lg px-8 py-4">
+            Saber Mais
+          </Button>
+        </div>
+        
+        {/* Floating elements */}
+        <div className="absolute top-1/4 left-1/4 w-20 h-20 bg-accent/20 rounded-full animate-float"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-16 h-16 bg-primary/20 rounded-full animate-float" style={{ animationDelay: '1s' }}></div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
