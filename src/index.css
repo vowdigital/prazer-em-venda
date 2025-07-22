@@ -40,7 +40,6 @@ All colors MUST be HSL.
     --gradient-primary: linear-gradient(135deg, hsl(341 62% 14%), hsl(341 50% 25%));
     --gradient-secondary: linear-gradient(135deg, hsl(45 85% 70%), hsl(50 90% 80%));
     --gradient-hero: linear-gradient(135deg, hsl(341 62% 14%) 0%, hsl(341 50% 25%) 50%, hsl(45 85% 70%) 100%);
-    --gradient-flowing: linear-gradient(45deg, hsl(341 62% 14%) 0%, hsl(341 50% 30%) 25%, hsl(45 85% 70%) 50%, hsl(341 40% 35%) 75%, hsl(341 62% 14%) 100%);
     --shadow-elegant: 0 10px 30px -10px hsl(341 62% 14% / 0.3);
     --shadow-soft: 0 4px 20px -4px hsl(315 25% 85% / 0.5);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -110,40 +109,5 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-  }
-}
-
-@layer components {
-  /* Flowing fabric animation */
-  .bg-gradient-flowing {
-    background: var(--gradient-flowing);
-    background-size: 400% 400%;
-  }
-  
-  .animate-flowing-fabric {
-    animation: flowing-fabric 8s ease-in-out infinite;
-  }
-}
-
-@keyframes flowing-fabric {
-  0%, 100% {
-    background-position: 0% 50%;
-    transform: scale(1) rotate(0deg);
-    filter: hue-rotate(0deg);
-  }
-  25% {
-    background-position: 100% 25%;
-    transform: scale(1.05) rotate(1deg);
-    filter: hue-rotate(5deg);
-  }
-  50% {
-    background-position: 100% 100%;
-    transform: scale(1.02) rotate(-0.5deg);
-    filter: hue-rotate(10deg);
-  }
-  75% {
-    background-position: 0% 75%;
-    transform: scale(1.03) rotate(0.8deg);
-    filter: hue-rotate(5deg);
   }
 }
