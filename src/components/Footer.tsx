@@ -1,4 +1,4 @@
-import { Heart, Mail, Phone, Instagram, MessageCircle, Facebook } from "lucide-react";
+import { Heart, Mail, Phone, Instagram, MessageCircle, Facebook, Globe } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -63,6 +63,14 @@ const Footer = () => {
                 className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center hover:bg-accent/30 transition-colors cursor-pointer"
               >
                 <Facebook className="w-6 h-6 text-accent" />
+              </a>
+              <a 
+                href="https://www.prazercomluxo.store/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center hover:bg-accent/30 transition-colors cursor-pointer"
+              >
+                <Globe className="w-6 h-6 text-accent" />
               </a>
             </div>
             
