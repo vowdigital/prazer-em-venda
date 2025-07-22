@@ -26,12 +26,9 @@ const HeroSection = () => {
           reconectar-se com sua sensualidade e bem-estar íntimo
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">
+        <div className="flex justify-center items-center animate-fade-in">
           <Button variant="hero" size="lg" className="text-lg px-8 py-4">
             Começar Minha Jornada
-          </Button>
-          <Button variant="elegant" size="lg" className="text-lg px-8 py-4">
-            Saber Mais
           </Button>
         </div>
         
