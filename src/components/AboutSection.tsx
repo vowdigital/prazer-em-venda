@@ -8,19 +8,20 @@ const AboutSection = () => {
           {/* Text Content */}
           <div className="space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-              Sobre a 
-              <span className="bg-gradient-primary bg-clip-text text-transparent"> Mentoria</span>
+              Redescobrindo sua intimidade com leveza,
+              <span className="bg-gradient-primary bg-clip-text text-transparent"> consciência e conexão</span>
             </h2>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Uma abordagem única e personalizada para o desenvolvimento da sexualidade feminina, 
-              baseada em anos de experiência e estudos profundos sobre bem-estar íntimo.
+              Você sente que vive um bom relacionamento, mas ainda assim falta algo na sua conexão íntima?
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Através de técnicas comprovadas, exercícios práticos e um ambiente seguro de 
-              aprendizado, você descobrirá como reconectar-se com seu corpo e despertar 
-              seu potencial de prazer.
+              Talvez você tenha parado de se olhar com desejo, de se tocar com amor, ou de se permitir sentir prazer de forma plena. E está tudo bem sentir isso. Muitas mulheres passam por essa fase – especialmente após os 40 anos – carregando a ideia de que a sexualidade é algo mecânico ou apenas para agradar o outro.
+            </p>
+            
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Mas a verdade é: o prazer é seu. E ele pode ser leve, sensorial, espiritual, profundo. E mais do que isso: pode transformar seus relacionamentos, sua autoestima e sua presença no mundo.
             </p>
             
             <div className="flex items-center gap-4 pt-4">
