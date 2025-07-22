@@ -12,8 +12,8 @@ const Index = () => {
         <h1 className="text-8xl md:text-9xl font-bold text-white font-dancing">Prazer com Luxo</h1>
       </header>
       <HeroSection />
-      <AboutSection />
       <BenefitsSection />
+      <AboutSection />
       <TestimonialsSection />
       <CTASection />
       <Footer />

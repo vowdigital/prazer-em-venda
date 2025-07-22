@@ -49,6 +49,13 @@ const AboutSection = () => {
           </div>
         </div>
         
+        {/* FAQ Section Title */}
+        <div className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+            DÚVIDAS FREQUENTES
+          </h2>
+        </div>
+        
         {/* Info Cards */}
         <div className="grid lg:grid-cols-3 gap-8">
           <Card className="bg-gradient-primary/5 border-primary/20 shadow-soft transition-transform duration-300 hover:scale-110">
