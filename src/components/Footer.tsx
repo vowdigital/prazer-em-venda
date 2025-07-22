@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <Heart className="w-8 h-8 text-accent" />
-              <h3 className="text-2xl font-bold">Mentoria Prazer</h3>
+              <h3 className="text-2xl font-bold">Prazer e Luxo</h3>
             </div>
             <p className="text-white/80 leading-relaxed">
               Transformando vidas através do autoconhecimento e empoderamento feminino. 
@@ -76,7 +76,7 @@ const Footer = () => {
             
             <div className="pt-6">
               <p className="text-white/60 text-sm">
-                © 2024 Mentoria Prazer. Todos os direitos reservados.
+                © 2024 Prazer e Luxo. Todos os direitos reservados.
               </p>
               <p className="text-white/60 text-sm mt-2">
                 Feito com ❤️ para empoderar mulheres
