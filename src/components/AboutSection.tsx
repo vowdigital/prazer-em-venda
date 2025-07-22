@@ -41,7 +41,7 @@ const AboutSection = () => {
         
         {/* Info Cards */}
         <div className="grid lg:grid-cols-3 gap-8">
-          <Card className="bg-gradient-primary/5 border-primary/20 shadow-soft">
+          <Card className="bg-gradient-primary/5 border-primary/20 shadow-soft transition-transform duration-300 hover:scale-110">
             <CardContent className="p-6">
               <h3 className="text-xl font-bold text-foreground mb-4">O que é essa consultoria?</h3>
               <p className="text-muted-foreground mb-4">
@@ -53,7 +53,7 @@ const AboutSection = () => {
             </CardContent>
           </Card>
           
-          <Card className="bg-gradient-secondary/5 border-accent/20 shadow-soft">
+          <Card className="bg-gradient-secondary/5 border-accent/20 shadow-soft transition-transform duration-300 hover:scale-110">
             <CardContent className="p-6">
               <h3 className="text-xl font-bold text-foreground mb-4">Para quem é?</h3>
               <div className="text-muted-foreground space-y-2">
@@ -65,7 +65,7 @@ const AboutSection = () => {
             </CardContent>
           </Card>
           
-          <Card className="bg-gradient-primary/5 border-primary/20 shadow-soft">
+          <Card className="bg-gradient-primary/5 border-primary/20 shadow-soft transition-transform duration-300 hover:scale-110">
             <CardContent className="p-6">
               <h3 className="text-xl font-bold text-foreground mb-4">Como funciona?</h3>
               <div className="text-muted-foreground space-y-3">
