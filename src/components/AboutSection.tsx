@@ -53,7 +53,7 @@ const AboutSection = () => {
             </CardContent>
           </Card>
           
-          <Card className="bg-gradient-secondary/5 border-accent/20 shadow-soft transition-transform duration-300 hover:scale-110">
+          <Card className="bg-gradient-secondary/5 border-accent/20 shadow-soft transition-transform duration-300 hover:scale-110 border border-solid border-accent/40">
             <CardContent className="p-6">
               <h3 className="text-[1.35rem] font-bold text-foreground mb-4">Para quem é?</h3>
               <div className="text-[1.10rem] text-muted-foreground space-y-2">
