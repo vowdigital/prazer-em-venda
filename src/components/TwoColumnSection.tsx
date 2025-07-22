@@ -3,8 +3,18 @@ import { Button } from "@/components/ui/button";
 
 const TwoColumnSection = () => {
   return (
-    <section className="py-12 px-6 bg-background">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-12 px-6 bg-background relative overflow-hidden">
+      {/* Animated Circles */}
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="w-12 h-12 bg-primary/20 rounded-full absolute top-16 left-20 animate-bounce" style={{animationDelay: '0s', animationDuration: '3s'}}></div>
+        <div className="w-8 h-8 bg-accent/30 rounded-full absolute top-32 right-16 animate-bounce" style={{animationDelay: '1s', animationDuration: '4s'}}></div>
+        <div className="w-16 h-16 bg-gradient-primary rounded-full absolute bottom-20 left-12 animate-bounce opacity-40" style={{animationDelay: '1.5s', animationDuration: '3.5s'}}></div>
+        <div className="w-10 h-10 bg-secondary/40 rounded-full absolute bottom-32 right-24 animate-bounce" style={{animationDelay: '2s', animationDuration: '4.5s'}}></div>
+        <div className="w-6 h-6 bg-primary rounded-full absolute top-48 left-1/3 animate-bounce opacity-60" style={{animationDelay: '0.5s', animationDuration: '5s'}}></div>
+        <div className="w-14 h-14 bg-accent/25 rounded-full absolute top-20 right-1/3 animate-bounce" style={{animationDelay: '2.5s', animationDuration: '3.8s'}}></div>
+      </div>
+      
+      <div className="max-w-6xl mx-auto relative z-10">
         {/* Centered Title */}
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
