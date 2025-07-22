@@ -33,8 +33,18 @@ const AboutSection = () => {
           </div>
           
           <div className="flex justify-center">
-            <div className="w-full max-w-md h-96 bg-gradient-primary/10 rounded-xl flex items-center justify-center">
-              <span className="text-muted-foreground">Imagem ilustrativa</span>
+            <div className="w-full max-w-md h-96 relative overflow-hidden rounded-xl flex items-center justify-center">
+              {/* Floating Circles */}
+              <div className="absolute inset-0">
+                <div className="w-16 h-16 bg-gradient-primary rounded-full absolute top-8 left-12 animate-bounce" style={{animationDelay: '0s', animationDuration: '2s'}}></div>
+                <div className="w-8 h-8 bg-accent/70 rounded-full absolute top-20 right-16 animate-bounce" style={{animationDelay: '0.5s', animationDuration: '3s'}}></div>
+                <div className="w-12 h-12 bg-primary/80 rounded-full absolute bottom-24 left-8 animate-bounce" style={{animationDelay: '1s', animationDuration: '2.5s'}}></div>
+                <div className="w-20 h-20 bg-gradient-secondary rounded-full absolute bottom-16 right-8 animate-bounce" style={{animationDelay: '1.5s', animationDuration: '3.5s'}}></div>
+                <div className="w-6 h-6 bg-primary rounded-full absolute top-32 left-32 animate-bounce" style={{animationDelay: '2s', animationDuration: '2s'}}></div>
+                <div className="w-14 h-14 bg-accent/60 rounded-full absolute top-48 right-12 animate-bounce" style={{animationDelay: '0.8s', animationDuration: '4s'}}></div>
+                <div className="w-10 h-10 bg-gradient-primary rounded-full absolute bottom-40 left-20 animate-bounce" style={{animationDelay: '2.2s', animationDuration: '2.8s'}}></div>
+                <div className="w-24 h-24 bg-primary/40 rounded-full absolute top-16 right-24 animate-bounce" style={{animationDelay: '1.2s', animationDuration: '3.2s'}}></div>
+              </div>
             </div>
           </div>
         </div>
