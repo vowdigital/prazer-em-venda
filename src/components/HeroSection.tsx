@@ -34,9 +34,9 @@ const HeroSection = () => {
           </Button>
         </div>
         
-        {/* Floating elements */}
-        <div className="absolute top-1/4 left-1/4 w-20 h-20 bg-accent/20 rounded-full animate-float"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-16 h-16 bg-primary/20 rounded-full animate-float" style={{ animationDelay: '1s' }}></div>
+        {/* Floating elements - behind content */}
+        <div className="absolute top-1/4 left-1/4 w-12 h-12 md:w-20 md:h-20 bg-accent/10 rounded-full animate-float -z-10 hidden sm:block"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-10 h-10 md:w-16 md:h-16 bg-primary/10 rounded-full animate-float -z-10 hidden sm:block" style={{ animationDelay: '1s' }}></div>
       </div>
     </section>
   );
