@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Heart, Star, Zap, Shield, Users, Crown } from "lucide-react";
 
 const benefits = [
@@ -69,6 +70,20 @@ const BenefitsSection = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+        
+        {/* CTA Button */}
+        <div className="text-center mt-12">
+          <Button 
+            variant="default" 
+            size="lg" 
+            className="text-xl px-12 py-6 bg-gradient-primary hover:scale-105 transition-transform duration-300" 
+            asChild
+          >
+            <a href="https://wa.me/5511911105896" target="_blank" rel="noopener noreferrer">
+              Agendar Consulta
+            </a>
+          </Button>
         </div>
       </div>
     </section>
