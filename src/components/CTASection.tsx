@@ -12,8 +12,7 @@ const CTASection = () => {
             <span className="block text-accent">Transformação?</span>
           </h2>
           <p className="text-xl text-white/90 leading-relaxed max-w-3xl mx-auto">
-            Não espere mais para reconectar-se com seu prazer e empoderar-se como mulher. 
-            Sua jornada de autoconhecimento começa agora.
+            Descubra um novo nível de prazer, onde elegância e respeito se encontram. 💕
           </p>
         </div>
         
