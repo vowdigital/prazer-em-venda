@@ -34,6 +34,10 @@ const HeroSection = () => {
           </Button>
         </div>
         
+        {/* Floating circles with gentle bounce animation */}
+        <div className="absolute top-1/4 left-1/4 w-12 h-12 md:w-20 md:h-20 bg-accent/10 rounded-full animate-bounce -z-10 hidden sm:block" style={{animationDuration: '3s'}}></div>
+        <div className="absolute bottom-1/4 right-1/4 w-10 h-10 md:w-16 md:h-16 bg-primary/10 rounded-full animate-bounce -z-10 hidden sm:block" style={{animationDelay: '1s', animationDuration: '4s'}}></div>
+        <div className="absolute top-1/3 right-1/3 w-8 h-8 md:w-12 md:h-12 bg-secondary/15 rounded-full animate-bounce -z-10 hidden sm:block" style={{animationDelay: '2s', animationDuration: '3.5s'}}></div>
       </div>
     </section>
   );
