@@ -1,4 +1,4 @@
-import { Heart, Mail, Phone, Instagram, MessageCircle } from "lucide-react";
+import { Heart, Mail, Phone, Instagram, MessageCircle, Facebook } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -40,12 +40,30 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-xl font-semibold mb-6">Siga-nos</h4>
             <div className="flex gap-4">
-              <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center hover:bg-accent/30 transition-colors cursor-pointer">
+              <a 
+                href="https://www.instagram.com/prazercomluxo.store/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center hover:bg-accent/30 transition-colors cursor-pointer"
+              >
                 <Instagram className="w-6 h-6 text-accent" />
-              </div>
-              <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center hover:bg-accent/30 transition-colors cursor-pointer">
+              </a>
+              <a 
+                href="https://wa.me/5511911105896" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center hover:bg-accent/30 transition-colors cursor-pointer"
+              >
                 <MessageCircle className="w-6 h-6 text-accent" />
-              </div>
+              </a>
+              <a 
+                href="https://www.facebook.com/people/Prazer-com-Luxo/61575784844823/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center hover:bg-accent/30 transition-colors cursor-pointer"
+              >
+                <Facebook className="w-6 h-6 text-accent" />
+              </a>
             </div>
             
             <div className="pt-6">
