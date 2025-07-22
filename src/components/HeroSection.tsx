@@ -27,8 +27,10 @@ const HeroSection = () => {
         </p>
         
         <div className="flex justify-center items-center animate-fade-in">
-          <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-            Começar Minha Jornada
+          <Button variant="hero" size="lg" className="text-lg px-8 py-4" asChild>
+            <a href="https://wa.me/5511911105896" target="_blank" rel="noopener noreferrer">
+              Começar Minha Jornada
+            </a>
           </Button>
         </div>
         

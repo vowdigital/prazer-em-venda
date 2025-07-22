@@ -46,8 +46,10 @@ const CTASection = () => {
         
         {/* Main CTA */}
         <div className="space-y-6">
-          <Button variant="elegant" size="lg" className="text-xl px-12 py-6 bg-white text-primary hover:bg-white/90">
-            Agendar Consulta Gratuita
+          <Button variant="elegant" size="lg" className="text-xl px-12 py-6 bg-white text-primary hover:bg-white/90" asChild>
+            <a href="https://wa.me/5511911105896" target="_blank" rel="noopener noreferrer">
+              Agendar Consulta Gratuita
+            </a>
           </Button>
           
           <p className="text-white/70 text-sm">
