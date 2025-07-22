@@ -1,8 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 const TwoColumnSection = () => {
   return (
-    <section className="py-20 px-6 bg-background">
+    <section className="py-12 px-6 bg-background">
       <div className="max-w-6xl mx-auto">
         {/* Centered Title */}
         <div className="text-center mb-12">
@@ -41,6 +42,20 @@ const TwoColumnSection = () => {
             </div>
           </CardContent>
         </Card>
+        
+        {/* CTA Button */}
+        <div className="text-center mt-12">
+          <Button 
+            variant="default" 
+            size="lg" 
+            className="text-xl px-12 py-6 bg-gradient-primary hover:scale-105 transition-transform duration-300" 
+            asChild
+          >
+            <a href="https://wa.me/5511911105896" target="_blank" rel="noopener noreferrer">
+              Agendar Consulta
+            </a>
+          </Button>
+        </div>
       </div>
     </section>
   );
