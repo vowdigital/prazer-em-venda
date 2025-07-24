@@ -46,27 +46,15 @@ const AboutUsSection = () => {
             </h3>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              A Prazer com Luxo nasceu com uma missão audaciosa: desafiar tabus e explorar, de maneira discreta e respeitosa, o universo do prazer e da sexualidade. Acreditamos que o prazer não é apenas um direito, mas um componente essencial para uma vida plena e saudável.
+              A Prazer com Luxo nasceu com uma missão audaciosa: desafiar tabus e explorar, de maneira discreta e respeitosa, o universo do prazer e da sexualidade. Acreditamos que o prazer é um componente essencial para uma vida plena e saudável.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Desde de sempre, enfrentamos o desafio de desvincular a sexualidade da vulgaridade e temos orgulho de cada dia superar esses obstáculos. Reinventamos a abordagem, associando o prazer a um luxo necessário, especialmente para as pessoas "mais maduras" que cresceram em ambientes tradicionais e machistas.
+              Reinventamos a abordagem, associando o prazer a um luxo necessário, especialmente para pessoas que cresceram em ambientes tradicionais. Nossa jornada é guiada pelo compromisso de oferecer produtos de alta qualidade e experiências que valorizam o auto cuidado e o amor próprio.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Nossa jornada é guiada por um compromisso sólido de oferecer não apenas produtos de alta qualidade, mas também experiências que enriquecem e valorizam a vida de cada indivíduo. Enfatizamos a importância do auto cuidado, do amor próprio e da autoestima, acreditando no poder transformador desses elementos.
-            </p>
-            
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Estamos também empenhados em redefinir a identidade desse mercado e por isso, estamos substituindo o termo sexshop por Curadoria de Produtos Íntimos e de Bem-Estar, estabelecendo um novo relacionamento com você que busca uma conexão mais profunda consigo mesmo e com seu parceiro(a).
-            </p>
-            
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Com respeito, te convido a entrar nesta jornada de descoberta e aceitação, onde o luxo se entrelaça com a intimidade e o respeito está presente em cada passo que daremos. Juntos, vamos elevar o prazer a um novo patamar, resgatando a verdadeira essência do cuidado e do amor próprio.
-            </p>
-            
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Venha explorar, conhecer e celebrar o prazer verdadeiro consigo mesma e com o parceiro escolhido para trilhar sua vida.
+              Estamos redefinindo esse mercado, substituindo o termo sexshop por <strong>Curadoria de Produtos Íntimos e de Bem-Estar</strong>. Te convido a entrar nesta jornada onde o luxo se entrelaça com a intimidade e o respeito está presente em cada passo.
             </p>
             
             <div className="mt-8 text-right">
