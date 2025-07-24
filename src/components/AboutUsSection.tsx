@@ -46,16 +46,34 @@ const AboutUsSection = () => {
             </h3>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              A Prazer com Luxo nasceu com uma missão audaciosa: desafiar tabus e explorar, de maneira discreta e respeitosa, o universo do prazer e da sexualidade. Acreditamos que o prazer não é apenas um direito, mas um componente essencial para uma vida plena e saudável.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Desde de sempre, enfrentamos o desafio de desvincular a sexualidade da vulgaridade e temos orgulho de cada dia superar esses obstáculos. Reinventamos a abordagem, associando o prazer a um luxo necessário, especialmente para as pessoas "mais maduras" que cresceram em ambientes tradicionais e machistas.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+              Nossa jornada é guiada por um compromisso sólido de oferecer não apenas produtos de alta qualidade, mas também experiências que enriquecem e valorizam a vida de cada indivíduo. Enfatizamos a importância do auto cuidado, do amor próprio e da autoestima, acreditando no poder transformador desses elementos.
             </p>
+            
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Estamos também empenhados em redefinir a identidade desse mercado e por isso, estamos substituindo o termo sexshop por Curadoria de Produtos Íntimos e de Bem-Estar, estabelecendo um novo relacionamento com você que busca uma conexão mais profunda consigo mesmo e com seu parceiro(a).
+            </p>
+            
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Com respeito, te convido a entrar nesta jornada de descoberta e aceitação, onde o luxo se entrelaça com a intimidade e o respeito está presente em cada passo que daremos. Juntos, vamos elevar o prazer a um novo patamar, resgatando a verdadeira essência do cuidado e do amor próprio.
+            </p>
+            
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Venha explorar, conhecer e celebrar o prazer verdadeiro consigo mesma e com o parceiro escolhido para trilhar sua vida.
+            </p>
+            
+            <div className="mt-8 text-right">
+              <p className="text-lg text-muted-foreground italic">Com carinho,</p>
+              <p className="text-xl font-semibold text-foreground mt-2">Luciana Patricio</p>
+              <p className="text-sm text-muted-foreground">CEO da Prazer com Luxo</p>
+            </div>
             
             <div className="flex items-center gap-4 pt-4">
               <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center">
